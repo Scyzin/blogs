@@ -16,6 +16,7 @@
 配置SSH-key:  
 [https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000 "如何配置ssh")。  
 创建名为userName.github.io的仓库,userName是你申请的用户名。
+
 ##二.安装hexo
 1. 安装Hexo:  
 	> 右键git bash,输入`npm install -g hexo`  
@@ -33,6 +34,7 @@
  在hexo install过程中可能出现  
 `npm WARN deprecated swig@1.4.2: This package is no longer maintained`  
 只是说这个包不再维护了，后面好像并不影响使用，当然你也可以`npm -g install npm`，更新安装。
+
 ##三、布置博客
 1. 熟悉git的简单操作
 	> 选中你的文件夹 `git init` ，创建仓库  
@@ -66,6 +68,7 @@
 1. `hexo d`，将博客发布在github.io上。  
 
 **至此你就可以直接通过scyzin.github.io访问你的博客。当然你也可以选择购买域名，绑定自己的地址访问。**  
+
 ##四、hexo常用命令  
 
     hexo new "postName" #新建文章
